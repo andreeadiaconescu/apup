@@ -6,6 +6,18 @@ Accompanying manuscript: Atypical processing of uncertainty in individuals at ri
 Authors: David M. Cole, Andreea O. Diaconescu, Ulrich J. Pfeiffer, Kay H. Brodersen, Christoph D. Mathys, Dominika Julkowski, Stephan Ruhrmann, Leonhard Schilbach, Marc Tittgemeyer, Kai Vogeley, Klaas E. Stephan
 
 
+About this Code
+---------------
+
+This analysis was run using Matlab R2018b on a Mac OS System (MacBook Pro Mojave version 10.14.6). 
+
+The computational models considered were developed specifically for the given paradigm. 
+
+In order to test parameter recovery, we simulated responses from the MAP estimates of the parameters. The randomisation seed was saved and reload before running simulations, in order to reproduce model recovery results. The seed is saved in this analysis pipeline and may be Matlab version-dependent. 
+
+To reproduce the results, use the toolboxes included here as well as consistent Matlab versions.
+
+
 Getting Started
 ---------------
 

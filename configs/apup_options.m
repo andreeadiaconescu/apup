@@ -6,7 +6,7 @@ options = [];
 [~, uid] = unix('whoami');
 switch uid(1: end-1)
     case 'drea'
-        configroot       = fullfile(fileparts(mfilename('fullpath')), '/Code/', 'Configs');
+        configroot       = fullfile(fileparts(mfilename('fullpath')), 'configs');
         simroot          = fullfile(fileparts(mfilename('fullpath')), 'Simulations');
         dataroot         = fullfile('/Users/drea/Documents/Collaborations/Psychosis_fMRI_Paper/Data');
 end
